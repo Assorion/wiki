@@ -1,2 +1,3 @@
-# Assorion
-𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝  𝕎𝕖𝕓𝕤𝕚𝕥𝕖  𝕗𝕠𝕣  𝔸𝕤𝕤𝕠𝕣𝕚𝕠𝕟  𝔼𝕟𝕘𝕚𝕟𝕖
+<div align="center"><h1>Friday Night Funkin' Assorion Engine Website!</h1></div>
+
+![LOGO](https://github.com/Legendary-Candice-Joe/FNF-Assorion-Engine/blob/main/art/assorione.png)
