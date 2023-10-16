@@ -25,7 +25,16 @@
 var NAVTREE =
 [
   [ "​", "index.html", [
-    [ "Assorion Wiki", "index.html", null ]
+    [ "Assorion Wiki", "index.html", null ],
+    [ "Updates", "md_documents_2Change_01Log.html", [
+      [ "M - 1.0.0", "md_documents_2Change_01Log.html#autotoc_md1", null ],
+      [ "M - 1.1.0", "md_documents_2Change_01Log.html#autotoc_md2", null ],
+      [ "M - 1.1.1", "md_documents_2Change_01Log.html#autotoc_md3", null ],
+      [ "M - 1.1.2", "md_documents_2Change_01Log.html#autotoc_md4", null ],
+      [ "M - 1.2.0", "md_documents_2Change_01Log.html#autotoc_md5", null ],
+      [ "M - 1.2.1", "md_documents_2Change_01Log.html#autotoc_md6", null ],
+      [ "M - 1.2.2", "md_documents_2Change_01Log.html#autotoc_md7", null ]
+    ] ]
   ] ]
 ];
 

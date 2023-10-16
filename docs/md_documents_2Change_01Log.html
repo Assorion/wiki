@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>​: Assorion Wiki</title>
+<title>​: Updates</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('index.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('md_documents_2Change_01Log.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -90,29 +90,86 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Assorion Wiki </div></div>
+  <div class="headertitle"><div class="title">Updates</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md_documents_2README"></a> </p>
-<h2><a class="anchor" id="autotoc_md9"></a>
-♥ | Welcome to the Assorion Wiki!</h2>
-<p>We will document the various complexities with making an FNF mod built on this engine. <br  />
- This will give you the chance to tinker with the game's variables.</p>
-<blockquote class="doxtable">
-<p>&zwj;<span style="color:gold;font-weight:bold">WARNING!</span> <br  />
- If you are familiar with the base games, or any other engines code, <br  />
- Then you might face a few issues with how this engine handles many of it's parts.</p>
-<p>Assorion Engine handles things much differently from the base game, so beware of this when modding. </p>
-</blockquote>
-<p>I will try and present this as a sandbox. Where instead of just telling you everything up front, <br  />
- I'll show you how putting a mod together on this engine works.</p>
-<p>Of course though, there will still be more plain documentation for those who need it. <br  />
- I won't cover every little detail but will cover the variables and functions.</p>
-<h2><a class="anchor" id="autotoc_md10"></a>
-⚙ | Logo</h2>
-<p><img src="./assorion.png" alt="" class="inline"/> </p>
-</div></div><!-- PageDoc -->
-</div><!-- contents -->
+<div class="textblock"><p><a class="anchor" id="autotoc_md0"></a> </p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+M - 1.0.0</h1>
+<p>Making the MK (MakeMeGenius) engine a reality. Btw it used to be called MKG, it's Assorion now.</p>
+<h1><a class="anchor" id="autotoc_md2"></a>
+M - 1.1.0</h1>
+<ol type="1">
+<li>Asset improvements.</li>
+<li>Fixed input bugs.</li>
+<li><b>Hopefully</b> Made code simpler.</li>
+<li>Labeled chart editor buttons and drop downs.</li>
+<li>Added "About" section in the chart editor.</li>
+<li>Added options for caching to make the game really fast.</li>
+<li>Added embedded assets and settings icons.</li>
+<li>Made sure and improved all settings and works.</li>
+<li>Set up a test song and week to demo the engine.</li>
+<li>Added dialogue code.</li>
+<li>Fixed a lot of tiny bugs (post events timer being corrected, freeplay song not unpausing on vocals, highscore problems, etc).</li>
+<li>Donate button replaced with Github button.</li>
+<li>Made note types easier to implement!</li>
+</ol>
+<h1><a class="anchor" id="autotoc_md3"></a>
+M - 1.1.1</h1>
+<p>Minor update with a few fixes.</p>
+<ol type="1">
+<li><b>Actually</b> Fixed the README fully this time (I promise) (Thx to Byzol).</li>
+<li>Fixed NOTE_assets again.</li>
+<li>Fixed bug with the chart editor that locked your input forever (Thus losing your work).</li>
+<li>Exclude Firealpaca's art files (.mdp) in the build folder.</li>
+</ol>
+<h1><a class="anchor" id="autotoc_md4"></a>
+M - 1.1.2</h1>
+<p>Chart editor fix (again).</p>
+<ol type="1">
+<li>Actually <b>Actually</b> fixed the chart editor this time (hopefully).</li>
+<li>Fixed bug where you can't delete notes in 1/3 zoom level.</li>
+<li>Added navigation stuff.</li>
+</ol>
+<h1><a class="anchor" id="autotoc_md5"></a>
+M - 1.2.0</h1>
+<ol type="1">
+<li><b>Hopefully</b> Once and for all, fixed input problems.</li>
+<li>Added input offset option.</li>
+<li>All menus are standardized under MenuTemplate.hx.</li>
+<li>Bug fixes (obv).</li>
+<li>More navigation improvements.</li>
+<li>Added text file / chart caching.</li>
+<li>Added pause menu info.</li>
+<li>All menu current selection variables no longer static.</li>
+<li>Rebinding controls menu improvements (colour and skip over blank space).</li>
+<li>Background menu scrolling effect.</li>
+<li>Pausemenu lag hopefully gone.</li>
+<li>Gameplay icons properly centered.</li>
+<li>Chart editor fixes.</li>
+<li>You can take screenshots during gameplay.</li>
+<li>Code clean-up in many places.</li>
+</ol>
+<h1><a class="anchor" id="autotoc_md6"></a>
+M - 1.2.1</h1>
+<ol type="1">
+<li>Rounded syncing time, rather than setting.</li>
+<li>Fixed save data. Now not stored in local file.</li>
+<li>Fixed StoryMenu bug.</li>
+<li>Little refactoring.</li>
+<li>Removed usless code in GameOverState.</li>
+<li>Added offset wizard.</li>
+</ol>
+<h1><a class="anchor" id="autotoc_md7"></a>
+M - 1.2.2</h1>
+<ol type="1">
+<li>Added StaticSprite, a sprite with no update. Mild performance increase I guess.</li>
+<li>Fixed chart editor bug where the section would get stuck at the end.</li>
+<li>Split stage curtains into 2 sprites, and lowered the res on the back sprite, big peformance increase.</li>
+<li>ChartingState UI highlighting effect. </li>
+</ol>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
