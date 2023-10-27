@@ -34,6 +34,12 @@ var NAVTREE =
       [ "M - 1.2.0", "md_documents_2Change_01Log.html#autotoc_md5", null ],
       [ "M - 1.2.1", "md_documents_2Change_01Log.html#autotoc_md6", null ],
       [ "M - 1.2.2", "md_documents_2Change_01Log.html#autotoc_md7", null ]
+    ] ],
+    [ "History", "md_documents_2History.html", [
+      [ "🖹 | History", "md_documents_2History.html#autotoc_md9", null ],
+      [ "ⓘ | What Does Assorion Do differently?", "md_documents_2History.html#autotoc_md10", [
+        [ "I don't want to water down any mods built on this engine, just because some people might use a feature!", "md_documents_2History.html#autotoc_md11", null ]
+      ] ]
     ] ]
   ] ]
 ];

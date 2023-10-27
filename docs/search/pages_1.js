@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['updates_0',['Updates',['../md_documents_2Change_01Log.html',1,'']]]
+  ['history_0',['History',['../md_documents_2History.html',1,'']]]
 ];
