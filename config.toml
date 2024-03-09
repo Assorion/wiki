@@ -18,9 +18,9 @@ highlight_code = true
 # Put all your custom variables here
 default_theme = "dark"
 header_nav = [
-  { url = "wiki", name_en = "/main/"},
-  { url = "changelog", name_en = "/changelog/"},
-  { url = "modding", name_en = "/modding/"},
-  { url = "philosophy", name_en = "/philosophy/"}
+  { url = "/wiki", name_en = "/main/"},
+  { url = "/wiki/changelog", name_en = "/changelog/"},
+  { url = "/wiki/modding", name_en = "/modding/"},
+  { url = "/wiki/philosophy", name_en = "/philosophy/"}
 ]
 twitter_card = false
