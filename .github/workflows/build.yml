@@ -17,7 +17,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      pull-requests: write
+      contents: write
       issues: write
     steps:
     - name: Check out repo
