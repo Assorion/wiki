@@ -4,7 +4,6 @@ env:
   ZOLA_VERSION: "0.15.3"
   SOURCE_BRANCH: "main"
   TARGET_BRANCH: "gh-pages"
-  PAGES_BRANCH: "gh-pages"
 
 on:
   push:
@@ -32,9 +31,10 @@ jobs:
         | sudo tar xzf - -C /usr/local/bin
     - name: Generate HTML
       run: zola build
-    - name: build_and_deploy
-      uses: shalzz/zola-deploy-action@v0.18.0
+    - name: Deploy to gh-pages
+      if: ${{ github.event_name == 'push' && github.ref == format('refs/heads/{0}', env.SOURCE_BRANCH) }}
+      uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        PAGES_BRANCH: gh-pages
+        publish_dir: ./gh-pages
         force_orphan: true
