@@ -1,11 +1,8 @@
-# The URL the site will be built for
 base_url = "https://assorion.github.io/wiki/"
 compile_sass = true
 
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-# The Site Theme To Use
 theme = "anemone"
 
 [markdown]
@@ -15,12 +12,12 @@ smart_punctuation = true
 highlight_code = true
 
 [extra]
-# Put all your custom variables here
 default_theme = "dark"
 header_nav = [
-  { url = "/wiki", name_en = "/main/"},
-  { url = "/wiki/changelog", name_en = "/changelog/"},
-  { url = "/wiki/modding", name_en = "/modding/"},
+  { url = "/wiki",            name_en = "/main/"},
+  { url = "/wiki/changelog",  name_en = "/changelog/"},
+  { url = "/wiki/modding",    name_en = "/modding/"},
   { url = "/wiki/philosophy", name_en = "/philosophy/"}
 ]
+
 twitter_card = false

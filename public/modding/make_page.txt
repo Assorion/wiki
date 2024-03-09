@@ -1,7 +1,0 @@
-Put the number of importance first, then what the documentation will be about. 
-to change title put this in the document:
-+++
-title = "EXAMPLE"
-+++
-
-Also will need to fix blog-page.html to fix the way that documentation is sorted.
