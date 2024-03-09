@@ -28,29 +28,29 @@ figure,pre,table {
     --sans-font: -apple-system,BlinkMacSystemFont,"Avenir Next",Avenir,"Nimbus Sans L",Roboto,"Noto Sans","Segoe UI",Arial,Helvetica,"Helvetica Neue",sans-serif;
     --mono-font: Consolas,Menlo,Monaco,"Andale Mono","Ubuntu Mono",monospace;
     --standard-border-radius: 5px;
-    --bg: #a8c4c0;
+    --bg: #d4e3e3;
     --bg-light: #CBCDCD;
     --text: #344040;
-    --text-light: #3C5A5A;
-    --accent: #D7AA00;
+    --text-light: #76807e;
+    --accent: #007864;
     --accent-light: #FFCD00;
     --accent-text: var(--bg);
     --border: #007864;
-    --link: #5690AF
+    --link: #895da3;
 }
 
 @media (prefers-color-scheme: dark) {
     ::backdrop,:root {
         color-scheme:dark;
-        --bg: #344040;
+        --bg: #1a2828;
         --bg-light: #3C5A5A;
-        --text: #CBCDCD;
-        --text-light: #FFFFFF;
-        --accent: #D7AA00;
+        --text: #FFFFFF;
+        --text-light: #76807e;
+        --accent: #00B499;
         --accent-light: #FFCD00;
         --accent-text: var(--bg);
         --border: #007864;
-        --link: #E2AEA2
+        --link: #FFCD00;
     }
 
     img,video {
@@ -61,63 +61,42 @@ figure,pre,table {
 @media (prefers-color-scheme: light) {
     ::backdrop,:root {
         color-scheme:light;
-        --bg: #EEEEEE;
+        --bg: #d4e3e3;
         --bg-light: #CBCDCD;
-        --text: #41474E;
-        --text-light: #646868;
-        --accent: #D26878;
-        --accent-light: #e08f67;
+        --text: #344040;
+        --text-light: #76807e;
+        --accent: #007864;
+        --accent-light: #FFCD00;
         --accent-text: var(--bg);
-        --border: #646868;
-        --link: #5690AF
+        --border: #007864;
+        --link: #895da3;
     }
 }
 
 [data-theme=light] {
     color-scheme: light;
-    /*--bg: #EEEEEE;
-    --bg-light: #CBCDCD;
-    --text: #41474E;
-    --text-light: #646868;
-    --accent: #D26878;
-    --accent-light: #e08f67;
-    --accent-text: var(--bg);
-    --border: #646868;
-    --link: #5690AF*/
-
-    --bg: #a8c4c0;
+    --bg: #d4e3e3;
     --bg-light: #CBCDCD;
     --text: #344040;
-    --text-light: #3C5A5A;
-    --accent: #D7AA00;
+    --text-light: #76807e;
+    --accent: #007864;
     --accent-light: #FFCD00;
     --accent-text: var(--bg);
     --border: #007864;
-    --link: #5690AF
+    --link: #895da3;
 }
 
 [data-theme=dark] {
-    color-scheme: dark;
-    /*--bg: #222529;
-    --bg-light: #464949;
-    --text: #D6D6D6;
-    --text-light: #DBD5BC;
-    --accent: #78B6AD;
-    --accent-light: #87C9E5;
-    --accent-text: var(--bg);
-    --border: #DBD5BC;
-    --link: #E2AEA2*/
-
     color-scheme:dark;
-    --bg: #344040;
+    --bg: #1a2828;
     --bg-light: #3C5A5A;
-    --text: #CBCDCD;
-    --text-light: #FFFFFF;
-    --accent: #D7AA00;
+    --text: #FFFFFF;
+    --text-light: #76807e;
+    --accent: #00B499;
     --accent-light: #FFCD00;
     --accent-text: var(--bg);
     --border: #007864;
-    --link: #E2AEA2
+    --link: #FFCD00;
 }
 
 ::-moz-selection,::selection {
