@@ -6,12 +6,7 @@ env:
   TARGET_BRANCH: "gh-pages"
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   build:
@@ -31,10 +26,11 @@ jobs:
         | sudo tar xzf - -C /usr/local/bin
     - name: Generate HTML
       run: zola build
-    - name: Deploy to gh-pages
-      if: ${{ github.event_name == 'push' && github.ref == format('refs/heads/{0}', env.SOURCE_BRANCH) }}
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Deploy Site
+      uses: NickSchimek/deploy_jamstack_action@v1
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./gh-pages
-        force_orphan: true
+        build-dir: ./public
+        deploy-branch: gh-pages
+        github-token: ${{ github.token }}
+        github-actor: ${{ github.actor }}
+        github-repo: ${{ github.repository }}
