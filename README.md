@@ -9,7 +9,7 @@ The Official <a href="https://assorion.github.io/wiki/">Assorion Engine Wiki</a>
 ## 📖 | Setup the Wiki
 Assorion Engine Wiki used <a href="https://www.getzola.org/">`Zola Static Site Generator`</a> to compile the wiki that is currently in use. Follow the <a href="https://www.getzola.org/documentation/getting-started/overview/">documentation</a> provided within <a href="https://www.getzola.org/">`Zola Static Site Generator`</a> to Build your own website!
 
-## © | Credit
+## ➕ | Credit
 Assorion Wiki Used a theme called: <a href="https://www.getzola.org/themes/anemone/">Anemone</a>
 
-Thank you to the person to designed this theme!
+Thank you to <a href="https://github.com/speyll">Speyll</a> who designed this theme!
