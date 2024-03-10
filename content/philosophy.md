@@ -2,8 +2,6 @@
 title = "Philosophy"
 +++
 
-# Geneneral Philosophy
-
 Assorion has a rather unique philosophy, compared to most other FNF engines. 
 Assorion has always been about minimalism, rather than bloat.
 
@@ -20,7 +18,7 @@ gaining an understanding of Assorion, adding gimmicks will be very easy.
 
 Here are the principles of Assorion's management that has to be outlined:
 
-### 1. Assorion must be small at it's core. If a feature or asset is not strictly required, it will be cut.
+#### 1. Assorion is small at it's core
 
 Joke assets are fun! And so are easter eggs!
 
@@ -31,9 +29,9 @@ thus the only assets are the ones required for the game to function, and for the
 Easter eggs are also not going to be accepted in to Assorion, as adding code or assets for one is not very efficient, as a modder 
 will either have to remove all of the code for an easter egg or will have to just keep it in. Ultimately it is not worth it.
 
-### 2. Assorion must keep the code as clean as possible. The code should be clean and maintainable.
+#### 2. Assorion will keep clean code
 
-Let's break the third-person barrier, I (Rapid / Antivirus) believe in "Firmcoding". Where the logic is entirely coded in the the 
+Let's break the third-person barrier, I (Rapid / Antivirus) believe in "Firmcoding". Where the logic is entirely coded in the 
 executable of the game, but still easy to maintain / mod. 
 
 It's very important to make the code as clean and as easy to work on as possible. If a modder wants to add a feature, they should 
@@ -48,7 +46,7 @@ Assorion does not rely on any C / C++ code for the engine, and only uses Flixel 
 has a low chance of memory leaking (if it does that's due to a Lime or OpenFL bug). This also can allow Assorion to be portable without 
 too much compiler logic.
 
-### 3. Assorion must not worry about compatibility. The engine handles things much differently than the base game.
+#### 3. Assorion is not familiar
 
 Assorion does not care for the compatibility (or familiarity) of the base game or other engines.
 
