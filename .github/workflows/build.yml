@@ -26,12 +26,11 @@ jobs:
         | sudo tar xzf - -C /usr/local/bin
     - name: Generate HTML
       run: zola build
-    - name: Deploy Zola to gh-pages
-      uses: kytta/zola-build-pages@v1.0.0
-      with: 
-        zola-version: 0.15.3
-        root: .
-        config: config.toml
-        base-url: https://assorion.github.io/wiki/
-        output-dir: ./gh-pages
-        
+    - name: Deploy Site
+      uses: NickSchimek/deploy_jamstack_action@v1
+      with:
+        build-dir: ./public
+        deploy-branch: gh-pages
+        github-token: ${{ github.token }}
+        github-actor: ${{ github.actor }}
+        github-repo: ${{ github.repository }}
