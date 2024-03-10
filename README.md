@@ -1,6 +1,6 @@
 
 ---------------
-<a href="https://assorion.github.io/wiki/">![](https://github.com/Assorion/FNF-Assorion-Engine/blob/main/art/Assorion_Wiki.png)</a>
+<a href="https://assorion.github.io/wiki/">![](https://github.com/Assorion/wiki/blob/main/.github/Assorion_Wiki.png)</a>
 
 ---------------
 ## ✨ | <a href="https://assorion.github.io/wiki/">Official Assorion Wiki!</a>
