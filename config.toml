@@ -1,6 +1,5 @@
 base_url = "https://assorion.github.io/wiki/"
 compile_sass = false
-minify_html = true
 
 build_search_index = true
 
