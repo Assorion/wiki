@@ -14,10 +14,11 @@ highlight_code = true
 [extra]
 default_theme = "dark"
 header_nav = [
-  { url = "/wiki",            name_en = "/main/"},
+  { url = "/wiki",           name_en = "/main/"},
   { url = "/wiki/changelog",  name_en = "/changelog/"},
   { url = "/wiki/modding",    name_en = "/modding/"},
-  { url = "/wiki/philosophy", name_en = "/philosophy/"}
+  { url = "/wiki/philosophy", name_en = "/philosophy/"},
+  { url = "/wiki/discord.html",    name_en = "/discord/"}
 ]
 
 twitter_card = false
