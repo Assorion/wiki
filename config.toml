@@ -1,6 +1,6 @@
 base_url = "https://assorion.github.io/wiki/"
 compile_sass = false
-favicon = "favicon.ico"
+minify_html = true
 
 build_search_index = true
 
@@ -13,6 +13,8 @@ smart_punctuation = true
 highlight_code = true
 
 [extra]
+favicon = "favicon.ico"
+image = ""
 default_theme = "dark"
 header_nav = [
   { url = "/wiki",           name_en = "/main/"},
