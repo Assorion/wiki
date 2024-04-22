@@ -568,7 +568,7 @@ sub {
 }
 
 /* icons settings */
-.icons {
+icons {
   width: 1.3rem;
   height: 1.3rem;
   aspect-ratio: 1/1;
@@ -580,7 +580,7 @@ sub {
   cursor: pointer;
 }
 
-.icons:hover {
+icons:hover {
   background-color: transparent;
   color: var(--accent);
 }
