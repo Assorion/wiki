@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://assorion.github.io/wiki/sitemap.xml
