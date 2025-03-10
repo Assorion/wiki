@@ -22,3 +22,9 @@ I'll show you how putting a mod together on this engine works.
 
 Of course though, there will still be more plain documentation for those who need it.
 I won't cover every little detail but will cover the variables and functions.
+
+### Information/Links:
+
+- [Codeberg](https://codeberg.org/Assorion)
+- [Github](https://github.com/Assorion)
+- [Discord](https://discord.com/invite/nbhWWxKxTe)
