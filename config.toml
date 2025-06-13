@@ -20,7 +20,7 @@ header_nav = [
   { url = "/changelog",  name_en = "/changelog/"},
   { url = "/modding",    name_en = "/modding/"},
   { url = "/philosophy", name_en = "/philosophy/"},
-  { url = "/discord.html",    name_en = "/discord/"}
+  { url = "/discord.html",    name_en = "/discord/"},
   { url = "/marioman98/index.html", name_en = "/Cool Game/"}
 ]
 
