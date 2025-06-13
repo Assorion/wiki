@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="robots" content="index, follow">
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Philosophy</title>
+
+
+
+<meta name="title" content="Philosophy">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://assorion.moyai.shop/philosophy/">
+
+<meta property="og:site_name" content="">
+
+
+<meta property="og:title" content="Philosophy">
+
+
+
+<meta property="og:image" content="https:&#x2F;&#x2F;assorion.moyai.shop&#x2F;favicon.ico">
+
+
+
+<link rel="canonical" href="https://assorion.moyai.shop/philosophy/">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://assorion.moyai.shop/favicon.ico">
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://speyll.github.io/suCSS/reset-min.css"/>
+<link rel="stylesheet" type="text/css" href="https://assorion.moyai.shop/css/customSuCSS.css"/>
+<link rel="stylesheet" type="text/css" href="https://assorion.moyai.shop/css/style.css"/>
+
+<script src="https://assorion.moyai.shop/js/script.js" defer></script>
+
+
+</head>
+<body>
+      <header>
+          
+
+  
+
+
+  <nav id="nav-bar">
+    
+      <a href="&#x2F;" class="">
+        
+        &#x2F;main&#x2F;
+      </a>
+    
+      <a href="&#x2F;changelog" class="">
+        
+        &#x2F;changelog&#x2F;
+      </a>
+    
+      <a href="&#x2F;modding" class="">
+        
+        &#x2F;modding&#x2F;
+      </a>
+    
+      <a href="&#x2F;philosophy" class="">
+        
+        &#x2F;philosophy&#x2F;
+      </a>
+    
+      <a href="&#x2F;discord.html" class="">
+        
+        &#x2F;discord&#x2F;
+      </a>
+    
+      <a href="&#x2F;marioman98&#x2F;index.html" class="">
+        
+        &#x2F;Cool Game&#x2F;
+      </a>
+    
+    <div>
+      <input type="checkbox" id="theme-toggle" style="display: none;">
+      <label for="theme-toggle" id="theme-toggle-label"><svg id="theme-icon" class="icons"><use href="https://assorion.moyai.shop/icons.svg#lightMode"></use></svg></label>
+      <audio id="theme-sound">
+        <source src="https://assorion.moyai.shop/click.ogg" type="audio/ogg">
+      </audio>
+    </div>
+  </nav>
+
+
+      </header>
+      <main>
+          
+<h1>Philosophy</h1>
+
+
+
+<p>Assorion has a rather unique philosophy, compared to most other FNF engines. 
+Assorion has always been about minimalism, rather than bloat.</p>
+<p>Features such as a mods folder, cutscene support, DiscordRPC, in-built editors, etc are 
+features that add complexity to the source code, and would slow Assorion down. We wish to work 
+on an engine where the focus is on modding the <strong>source code</strong>, and where modding the source 
+code is easy without having to constantly fight the engine to add features.</p>
+<p>If a modder desires to add said features then there should be no code to obfuscate how the 
+engine works. As such, adding unique gimmicks at first can be very difficult; Over time after 
+gaining an understanding of Assorion, adding gimmicks will be very easy.</p>
+<h1 id="principles">Principles</h1>
+<p>Here are the principles of Assorion’s management that has to be outlined:</p>
+<h4 id="1-assorion-is-small-at-it-s-core">1. Assorion is small at it’s core</h4>
+<p>Joke assets are fun! And so are easter eggs!</p>
+<p>However there should be no assets that are not required, and any modder should remove assets that they themselves are not using. 
+Most modders will leave base assets in (though that should never be done!) and those can take up quite a bit of storage space, 
+thus the only assets are the ones required for the game to function, and for the demo and tutorial songs, everything else is cut.</p>
+<p>Easter eggs are also not going to be accepted in to Assorion, as adding code or assets for one is not very efficient, as a modder 
+will either have to remove all of the code for an easter egg or will have to just keep it in. Ultimately it is not worth it.</p>
+<h4 id="2-assorion-will-keep-clean-code">2. Assorion will keep clean code</h4>
+<p>Let’s break the third-person barrier, I (Rapid / Antivirus) believe in “Firmcoding”. Where the logic is entirely coded in the 
+executable of the game, but still easy to maintain / mod. </p>
+<p>It’s very important to make the code as clean and as easy to work on as possible. If a modder wants to add a feature, they should 
+not dig through thousands of lines of code in order to add a simple feature. It may take a bit for said modder to add one, however 
+it will be far easier than having to comb through other parts of code (that may or may not be related) just to make it work.</p>
+<p>Another important part of the code is “maturity”. The base game has a lot of cursing and/or not very well named variables and functions. 
+Assorion has made an effort to not only make the code easier to read, but to be able to guess what a variable or function is used for 
+based on it’s name. </p>
+<p>Assorion does not rely on any C / C++ code for the engine, and only uses Flixel / Lime / OpenFL dependencies. This means that Assorion 
+has a low chance of memory leaking (if it does that’s due to a Lime or OpenFL bug). This also can allow Assorion to be portable without 
+too much compiler logic.</p>
+<h4 id="3-assorion-is-not-familiar">3. Assorion is not familiar</h4>
+<p>Assorion does not care for the compatibility (or familiarity) of the base game or other engines.</p>
+<p>Truth is, most of the original FNF code is not very dynamic or flexable. Assorion’s code is far different from the base game’s, therefore, 
+getting familiar with the code will take some time. The engine handles charts, characters, notes, health / scoring, etc differently. Though 
+the new implementation has the future in mind; You could easily do a fair bit more than what was originally allowed.</p>
+<p>This does unfortunatly have the side effect of being difficult to port mods to, as Assorion is not a drop-in replacement. </p>
+<h1 id="finishing-statement">Finishing Statement</h1>
+<p>If the person reading this disagrees with any of the points made, that is totally fine!</p>
+<p>Assorion is a different engine, with different goals. If the person reading this feels that this engine would be to difficult to work on, 
+then do not retrofit Assorion engine to your use case, as it will not work!</p>
+<blockquote>
+<p>“Assorion Engine is designed for minimalists, not Windows users”  - Rapid / Antivirus</p>
+</blockquote>
+
+
+<p class="tags-data">
+
+</p>
+
+      </main>
+      <footer>
+          <hr>
+<div id="footer-container">
+  
+  <div>
+    <p>Assorion Engine is Licensed Under <a target="_blank" rel="noopener noreferrer" href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU Public License</a><br>
+      Project Maintained by <a target="_blank" rel="noopener noreferrer" href="https://github.com/Legendary-Candice-Joe"><i>Legendary Candice Joe</i></a><br>
+    </p>
+
+  </div>
+  
+</div>
+
+      </footer>
+</body>
+</html>
